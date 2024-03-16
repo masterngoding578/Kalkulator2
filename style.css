@@ -24,7 +24,7 @@ button:active {
 /* container adalah pembungkus paling luar dari sebuah kalkulator yang kita kasi garis warna merah */
 .container {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 180px;
   width: 300px;
   border-radius: 25px;
   display: flex;
