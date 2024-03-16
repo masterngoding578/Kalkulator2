@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(5, 5, 5);
+
+}
+
+button {
+  transition: 1.2s;
+}
+
+button:active {
+  background-color: rgb(108, 104, 104);
+  border-radius: 10px;
+
+}
+
+/* PERTAMA BUAT DULU TERLEBIH DAHULU STYLE CONTAINERMYA UNTUK MENJADI PEMBUNGKUS TERLUARNYA */
+
+/* container adalah pembungkus paling luar dari sebuah kalkulator yang kita kasi garis warna merah */
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  /* border: 3px solid rgb(255, 0, 0); */
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* KEDUA LANJUT BUAT STYLE UNTUK VALUE HASIL NYA BERUPA TAG INPUT  */
+
+/* value adalah pembungkus hasil dari semua input tombol dari kalkulator tersebut yang sudah kita tandai sebelumnya dnegan garis hitam */
+.value {
+  width: 300px;
+  border-radius: 25px;
+  height: 110px;
+  border: none;
+  font-size: xx-large;
+  background: none;
+  /* border: 2px solid blue; */
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 10, 10);
+  padding-right: 3px;
+}
+
+/* KETIGA KITA BUAT PEMBUNGKUS YANG KITABERI NAMA TOMBOL UNTUK MENAMPUNGG BUTTON BUTTTON TERSEBUT AGAR TIDAK BERSERAK */
+/* JANGAN LUPA KITA BERI DISPLAY FLEX justify-content: center; UNTUK AGAR BUTTON BUTTTONNYA KEBAWAH  */
+
+/* tombol adalah pembungkus dari elemen button yang terdiri dari 20 button yang sudah kita tandai dengan sebelumnya dengan gaaris biru */
+.tombol {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  gap: 6px;
+}
+
+/* KEMPAT BUAT STYLE BUTTONNYA AGAR RAPI TIDAK BERSERAK DAN KELUAR JALUR */
+
+/* button adalah elemen yang membungkus angka angka tersebut yang sudah kira tandain sebelumnya */
+/* buttton tak perlu dikasi style agara tulisan ketengah karena tulisan dalam button sudah otomatis di tengah */
+button {
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: rgb(1, 1, 1);
+  color: rgb(3, 3, 3);
+  font-size: large;
+  background: none;
+  /* border: 4px solid rgb(38, 234, 16); */
+  font-weight: bold;
+}
+
+/* mengaktifkan efek ketika ditekan memiliki efek warna */
+
+
+
+.btn-bagi {
+  color: rgb(255, 166, 0);
+  font-size: large;
+}
+
+.btn-bagi {
+  color: rgb(255, 166, 0);
+  font-size: large;
+}
+
+.btn-tambah {
+  color: rgb(255, 166, 0);
+  font-size: large;
+}
+
+.btn-kurang {
+  color: rgb(255, 166, 0);
+  font-size: large;
+}
+
+.btn-samadengan {
+  color: rgb(255, 166, 0);
+
+  font-size: large;
+}
+
+.btn-kali {
+  color: rgb(255, 166, 0);
+  font-size: large;
+}
