@@ -31,7 +31,7 @@ button:active {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 550px;
   /* border: 3px solid rgb(255, 0, 0); */
   background-color: rgb(255, 255, 255);
 
@@ -43,7 +43,7 @@ button:active {
 .value {
   width: 300px;
   border-radius: 25px;
-  height: 110px;
+  height: 90px;
   border: none;
   font-size: xx-large;
   background: none;
@@ -52,7 +52,7 @@ button:active {
   background-color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(10, 10, 10);
-  padding-right: 3px;
+  padding-right: 7px;
 }
 
 /* KETIGA KITA BUAT PEMBUNGKUS YANG KITABERI NAMA TOMBOL UNTUK MENAMPUNGG BUTTON BUTTTON TERSEBUT AGAR TIDAK BERSERAK */
@@ -62,10 +62,10 @@ button:active {
 .tombol {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
   justify-content: center;
   /* border: 1px solid blue; */
   gap: 6px;
+  margin-top: 10px;
 }
 
 /* KEMPAT BUAT STYLE BUTTONNYA AGAR RAPI TIDAK BERSERAK DAN KELUAR JALUR */
@@ -86,7 +86,9 @@ button {
 
 /* mengaktifkan efek ketika ditekan memiliki efek warna */
 
-
+.clear {
+  color: rgb(255, 0, 0);
+}
 
 .btn-bagi {
   color: rgb(255, 166, 0);
