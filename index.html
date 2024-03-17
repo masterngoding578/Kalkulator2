@@ -6,12 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KALKULATOR</title>
     <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
     <div class="container">
         <input type="text" id="display" class="value" disabled />
         <div class="tombol">
+
+            <button
+                onclick="document.getElementById('display').value = Math.log(parseFloat(document.getElementById('display').value));">
+                log
+            </button>
+            <button onclick="document.getElementById('display').value = '3.14';">
+                π
+
+            </button>
+            <button onclick="document.getElementById('display').value *= document.getElementById('display').value ">^</button>
+
+            <button
+                onclick="document.getElementById('display').value = Math.sqrt(parseFloat(document.getElementById('display').value));">
+                √
+
+            </button>
             <button class="clear" onclick="document.getElementById('display').value =''">
                 C
             </button>
